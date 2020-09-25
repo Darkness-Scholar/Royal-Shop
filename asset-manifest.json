@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Royal-Shop/static/css/main.2468bab0.chunk.css",
+    "main.js": "/Royal-Shop/static/js/main.f3f51695.chunk.js",
+    "main.js.map": "/Royal-Shop/static/js/main.f3f51695.chunk.js.map",
+    "runtime-main.js": "/Royal-Shop/static/js/runtime-main.3f329d91.js",
+    "runtime-main.js.map": "/Royal-Shop/static/js/runtime-main.3f329d91.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Royal-Shop/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9d56d4f4.chunk.js": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js",
+    "static/js/2.9d56d4f4.chunk.js.map": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js.map",
+    "index.html": "/Royal-Shop/index.html",
+    "precache-manifest.ec84d2a52083ccbec413ceafaa17737b.js": "/Royal-Shop/precache-manifest.ec84d2a52083ccbec413ceafaa17737b.js",
+    "service-worker.js": "/Royal-Shop/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Royal-Shop/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.2468bab0.chunk.css.map": "/Royal-Shop/static/css/main.2468bab0.chunk.css.map",
+    "static/js/2.9d56d4f4.chunk.js.LICENSE.txt": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f329d91.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9d56d4f4.chunk.js",
+    "static/css/main.2468bab0.chunk.css",
+    "static/js/main.f3f51695.chunk.js"
+  ]
+}
