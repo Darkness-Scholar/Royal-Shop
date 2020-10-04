@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Royal-Shop/static/css/main.2468bab0.chunk.css",
-    "main.js": "/Royal-Shop/static/js/main.f3f51695.chunk.js",
-    "main.js.map": "/Royal-Shop/static/js/main.f3f51695.chunk.js.map",
-    "runtime-main.js": "/Royal-Shop/static/js/runtime-main.3f329d91.js",
-    "runtime-main.js.map": "/Royal-Shop/static/js/runtime-main.3f329d91.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/Royal-Shop/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9d56d4f4.chunk.js": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js",
-    "static/js/2.9d56d4f4.chunk.js.map": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js.map",
-    "index.html": "/Royal-Shop/index.html",
-    "precache-manifest.ec84d2a52083ccbec413ceafaa17737b.js": "/Royal-Shop/precache-manifest.ec84d2a52083ccbec413ceafaa17737b.js",
-    "service-worker.js": "/Royal-Shop/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/Royal-Shop/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.2468bab0.chunk.css.map": "/Royal-Shop/static/css/main.2468bab0.chunk.css.map",
-    "static/js/2.9d56d4f4.chunk.js.LICENSE.txt": "/Royal-Shop/static/js/2.9d56d4f4.chunk.js.LICENSE.txt"
+    "main.css": "/Royal-Mall-/static/css/main.747860ce.chunk.css",
+    "main.js": "/Royal-Mall-/static/js/main.f4368cc3.chunk.js",
+    "main.js.map": "/Royal-Mall-/static/js/main.f4368cc3.chunk.js.map",
+    "runtime-main.js": "/Royal-Mall-/static/js/runtime-main.d2d537e0.js",
+    "runtime-main.js.map": "/Royal-Mall-/static/js/runtime-main.d2d537e0.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Royal-Mall-/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.9c168065.chunk.js": "/Royal-Mall-/static/js/2.9c168065.chunk.js",
+    "static/js/2.9c168065.chunk.js.map": "/Royal-Mall-/static/js/2.9c168065.chunk.js.map",
+    "index.html": "/Royal-Mall-/index.html",
+    "precache-manifest.9495e24daa8889eb21cf2777b41ea31a.js": "/Royal-Mall-/precache-manifest.9495e24daa8889eb21cf2777b41ea31a.js",
+    "service-worker.js": "/Royal-Mall-/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Royal-Mall-/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.747860ce.chunk.css.map": "/Royal-Mall-/static/css/main.747860ce.chunk.css.map",
+    "static/js/2.9c168065.chunk.js.LICENSE.txt": "/Royal-Mall-/static/js/2.9c168065.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f329d91.js",
+    "static/js/runtime-main.d2d537e0.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9d56d4f4.chunk.js",
-    "static/css/main.2468bab0.chunk.css",
-    "static/js/main.f3f51695.chunk.js"
+    "static/js/2.9c168065.chunk.js",
+    "static/css/main.747860ce.chunk.css",
+    "static/js/main.f4368cc3.chunk.js"
   ]
 }
