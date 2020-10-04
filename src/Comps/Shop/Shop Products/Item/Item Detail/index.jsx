@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -27,11 +27,12 @@ function Item_Detail(props) {
     const [giohang, setGiohang] = useRecoilState(cart);
     const handleAddToCart = (item) => {
         const newCart = addToCart(giohang, item);
-        console.log(newCart);
         setGiohang(newCart);
     }
 
-    console.log(dataforitem);
+    const [count, setCount] = useState(1)
+    const anh = "https://picsum.photos/500/600"
+
     return (
         <div>
             <Item_Detail_Banner />
@@ -43,7 +44,7 @@ function Item_Detail(props) {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://picsum.photos/500/600"
+                                        src={anh}
                                         alt="First slide"
                                     />
                                     <Carousel.Caption>
@@ -54,7 +55,7 @@ function Item_Detail(props) {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://picsum.photos/500/600"
+                                        src={anh}
                                         alt="Third slide"
                                     />
 
@@ -66,7 +67,7 @@ function Item_Detail(props) {
                                 <Carousel.Item>
                                     <img
                                         className="d-block w-100"
-                                        src="https://picsum.photos/500/600"
+                                        src={anh}
                                         alt="Third slide"
                                     />
 
@@ -87,14 +88,14 @@ function Item_Detail(props) {
                                 </ul>
                                 <p>{dataforitem['0'].desc}</p>
                                 <div className="product_count">
-                                        <input type="text" name="qty" id="sst" maxLength={12} defaultValue={1} title="Quantity:" className="input-text qty" />
-                                        <button className="increase items-count" type="button"><i className="lnr lnr-chevron-up" /></button>
-                                        <button className="reduced items-count" type="button"><i className="lnr lnr-chevron-down" /></button>
+                                        <input type="text" name="qty" id="sst" maxLength={12} value={count} title="Quantity:" className="input-text qty" />
+                                        <button className="increase items-count" type="button" onClick={() => setCount(count + 1)}><i className="lnr lnr-chevron-up" /></button>
+                                        <button className="reduced items-count" type="button" onClick={() => setCount(count - 1)}><i className="lnr lnr-chevron-down" /></button>
                                 </div>
                                 <div className="card_area d-flex align-items-center">
-                                    <a type="button" className="primary-btn" href={true} onClick={() => handleAddToCart(dataforitem['0'])}>Thêm vào giỏ</a>
-                                    <a className="icon_btn" href="#"><i className="lnr lnr lnr-diamond" /></a>
-                                    <a className="icon_btn" href="#"><i className="lnr lnr lnr-heart" /></a>
+                                    <a type="button" className="primary-btn" href={"#"} onClick={() => handleAddToCart(dataforitem['0'])}>Thêm vào giỏ</a>
+                                    <a className="icon_btn" href={"#"}><i className="lnr lnr lnr-diamond" /></a>
+                                    <a className="icon_btn" href={"#"}><i className="lnr lnr lnr-heart" /></a>
                                 </div>
                             </div>
                         </div>

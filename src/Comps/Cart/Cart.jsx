@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
+import { useRecoilValue } from 'recoil';
+import {cart} from './../../Data & State/Cart'
 import Cart_Item from './Cart Item/Cart_Item';
+import Shipping_Box from './Shipping Box/Shipping_Box';
 function Cart(props) {
+  const cartData = useRecoilValue(cart)
     return (
         <div>
         <section className="banner-area organic-breadcrumb">
@@ -32,8 +36,10 @@ function Cart(props) {
                     </tr>
                   </thead>
                   <tbody>
-                    
-                      <Cart_Item />
+
+                    {cartData.map((value, index) => {
+                      return <Cart_Item key={index} quantity={value.quantity} name={value.product.name} price={value.product.price}/>
+                    })}
                     
                     <tr className="bottom_button">
                       <td>
@@ -71,26 +77,7 @@ function Cart(props) {
                         <h5>Vận chuyển</h5>
                       </td>
                       <td>
-                        <div className="shipping_box">
-                          <ul className="list">
-                            <li className="active"><a href={true}>Siêu tốc: 20000₫</a></li>
-                            <li><a type="button" href={true}>Miễn phí</a></li>
-                          </ul>
-                          <h6>Địa chỉ vận chuyển <i className="fa fa-caret-down" aria-hidden="true" /></h6>
-                          <select className="shipping_select">
-                            <option value={1}>Hà Nội</option>
-                            <option value={2}>Hải Phòng</option>
-                            <option value={4}>Đà Nẵng</option>
-                            <option value={5}>TP Hồ Chí Minh</option>
-                          </select>
-                          <select className="shipping_select">
-                            <option value={1}>Hồ Tây</option>
-                            <option value={2}>Thanh Xuân</option>
-                            <option value={4}>Ba Đình</option>
-                          </select>
-                          <input type="text" placeholder="Ghi chú thêm" />
-                          <a className="gray_btn" type="button" href={true}>Cập Nhật</a>
-                        </div>
+                        <Shipping_Box />
                       </td>
                     </tr>
                     <tr className="out_button_area">

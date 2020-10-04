@@ -10,7 +10,7 @@ function Category(props) {
                             <div className="col-lg-8 col-md-8">
                                 <div className="single-deal">
                                     <div className="overlay" />
-                                    <img className="img-fluid w-100" src="img/category/c1.jpg" alt="" />
+                                    <img className="img-fluid w-100" src="https://picsum.photos/458/184" alt="" />
                                     <a href="img/category/c1.jpg" className="img-pop-up" target="_blank">
                                         <div className="deal-details">
                                             <h6 className="deal-title">Thời Trang</h6>

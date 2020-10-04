@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Cart_Item(props) {
-    const [quantity, setQuantity] = useState(1)
+  const [quantity, setQuantity] = useState(props.quantity)
   const increaseQuantity = () => {
     setQuantity(quantity + 1)
   }
@@ -18,12 +18,12 @@ function Cart_Item(props) {
                         <img src="img/cart.jpg" alt="" />
                     </div>
                     <div className="media-body">
-                        <p>Nho Mỹ</p>
+                        <p>{props.name}</p>
                     </div>
                 </div>
             </td>
             <td>
-                <h5>50000₫</h5>
+                <h5>{props.price}₫</h5>
             </td>
             <td>
                 <div className="product_count">
@@ -33,7 +33,7 @@ function Cart_Item(props) {
                 </div>
             </td>
             <td>
-                <h5>{50000 * quantity}₫</h5>
+                <h5>{props.price * quantity}₫</h5>
             </td>
         </tr>
     );

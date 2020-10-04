@@ -67,7 +67,7 @@ class Login extends Component {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="login_box_img">
-                                    <img className="img-fluid" src="img/login.jpg" alt="" />
+                                    <img className="img-fluid" src="https://picsum.photos/585/609" alt="" />
                                     <div className="hover">
                                         <h4>Sử dụng Facebook để đăng nhập</h4>
                                         <p>An toàn, thuận tiện với mọi người</p>
